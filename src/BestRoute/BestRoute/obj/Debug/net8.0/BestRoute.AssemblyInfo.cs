@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("BestRoute")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d8d63e9e6c327b50e7524a2c4f1cf7f3d85b95ed")]
 [assembly: System.Reflection.AssemblyProductAttribute("BestRoute")]
 [assembly: System.Reflection.AssemblyTitleAttribute("BestRoute")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
