@@ -1,0 +1,57 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Programa\u00E7\u00E3o\\Teste-FullStack\\bestroute\\src\\BestRoute\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{689EABAF-B1FC-4BEA-A2E0-229DBBC9FAD7}|BestRoute\\BestRoute.csproj|d:\\programa\u00E7\u00E3o\\teste-fullstack\\bestroute\\src\\bestroute\\bestroute\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{689EABAF-B1FC-4BEA-A2E0-229DBBC9FAD7}|BestRoute\\BestRoute.csproj|solutionrelative:bestroute\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e1b7d1f8-9b3c-49b1-8f4f-bfc63a88835d}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e506b91c-c606-466a-90a9-123d1d1e12b3}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Programa\u00E7\u00E3o\\Teste-FullStack\\bestroute\\src\\BestRoute\\BestRoute\\Program.cs",
+              "RelativeDocumentMoniker": "BestRoute\\Program.cs",
+              "ToolTip": "D:\\Programa\u00E7\u00E3o\\Teste-FullStack\\bestroute\\src\\BestRoute\\BestRoute\\Program.cs",
+              "RelativeToolTip": "BestRoute\\Program.cs",
+              "ViewState": "AgIAACoAAAAAAAAAAAAAAEgAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-14T15:43:56.989Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
