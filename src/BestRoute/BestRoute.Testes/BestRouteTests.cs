@@ -42,7 +42,7 @@ public class BestRouteTests
         var routeService = new RouteService(_context);
 
         // Action
-        var (rota, custo) = await routeService.EncontrarRotaMaisBarata("GRU", "CDG");
+        var (rota, custo) = await routeService.EncontrarRotaMenorCusto("GRU", "CDG");
 
         // Assert
         var rotaEsperada = new List<string> { "GRU", "BRC", "SCL", "ORL", "CDG" };
@@ -73,7 +73,7 @@ public class BestRouteTests
         var routeService = new RouteService(_context);
 
         // Action
-        var (rota, custo) = await routeService.EncontrarRotaMaisBarata("BRC", "SCL");
+        var (rota, custo) = await routeService.EncontrarRotaMenorCusto("BRC", "SCL");
 
         // Assert
         var rotaEsperada = new List<string> { "BRC", "SCL" };
@@ -100,7 +100,7 @@ public class BestRouteTests
         var routeService = new RouteService(_context);
 
         // Action
-        var (rota, custo) = await routeService.EncontrarRotaMaisBarata("GRU", "CDG");
+        var (rota, custo) = await routeService.EncontrarRotaMenorCusto("GRU", "CDG");
 
         // Assert
         Assert.Empty(rota);

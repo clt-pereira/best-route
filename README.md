@@ -7,8 +7,9 @@ Este projeto é uma aplicação .NET 8 utilizando Entity Framework 9 e banco de 
 - **Domain**: Contém as entidades de domínio.
 - **Infrastructure**: Contém o contexto do banco de dados e implementações de infraestrutura.
 
-## Algorítimo A*
-O objetivo do A* é encontrar o caminho de custo mínimo entre um nó inicial e um nó objetivo em um grafo, considerando tanto o custo do caminho percorrido quanto uma estimativa do custo restante para chegar ao destino.
+## Algorítimo Guloso
+Algorítmo Guloso foi utilizado para encontrar a rota com menor custo.
+De modo geral, algoritmos gulosos são usados em problemas de otimização onde é interessante realizar um conjunto de melhores soluções locais, possuindo como objetivo obter uma solução ótima global, tomando como base um determinado parâmetro. Os parâmetros que definem o que será a melhor solução durante a iteração irá variar para cada problema.
 
 ## Estrutura do Projeto
 

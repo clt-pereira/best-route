@@ -118,4 +118,92 @@ public class RouteService
         return (new List<string>(), 0);
     }
 
+    public async Task<(List<string> Rota, decimal Custo)> EncontrarRotaMenorCusto(string origem, string destino)
+    {
+        origem = origem.ToUpper();
+        destino = destino.ToUpper();
+
+        // Obter rotas disponíveis
+        var rotas = await _context.Rotas.ToListAsync();
+
+        // Construir grafo de adjacência com os custos
+        var grafo = rotas
+            .GroupBy(r => r.Origem.ToUpper())
+            .ToDictionary(g => g.Key, g => g.Select(r => (r.Destino.ToUpper(), r.Custo)).ToList());
+
+        // Inicializar estruturas
+        var custos = new Dictionary<string, decimal>(); // Armazena o menor custo conhecido até cada nó
+        var predecessores = new Dictionary<string, string>(); // Rastreia o caminho
+        var visitados = new HashSet<string>(); // Conjunto de nós já visitados
+
+        // Obter todas as cidades (origens e destinos)
+        var todasAsCidades = rotas
+            .SelectMany(r => new[] { r.Origem.ToUpper(), r.Destino.ToUpper() })
+            .Distinct();
+
+        // Inicializar os custos para todas as cidades
+        foreach (var cidade in todasAsCidades)
+        {
+            custos[cidade] = decimal.MaxValue; // Inicializar como infinito
+        }
+        custos[origem] = 0; // O custo da origem é 0
+
+        // Lista de nós para explorar
+        var aExplorar = new List<string> { origem };
+
+        while (aExplorar.Any())
+        {
+            // Selecionar o nó com o menor custo acumulado
+            var atual = aExplorar.OrderBy(n => custos[n]).First();
+            aExplorar.Remove(atual);
+
+            // Se chegamos ao destino, reconstruir a rota
+            if (atual == destino)
+            {
+                var rota = new List<string>();
+                var cidade = destino;
+
+                while (cidade != null)
+                {
+                    rota.Insert(0, cidade);
+                    cidade = predecessores.ContainsKey(cidade) ? predecessores[cidade] : null;
+                }
+
+                return (rota, custos[destino]);
+            }
+
+            // Marcar como visitado
+            visitados.Add(atual);
+
+            // Explorar vizinhos do nó atual
+            if (grafo.ContainsKey(atual))
+            {
+                foreach (var (vizinho, custoRota) in grafo[atual])
+                {
+                    if (visitados.Contains(vizinho)) continue;
+
+                    // Calcular o custo para alcançar o vizinho
+                    var novoCusto = custos[atual] + custoRota;
+
+                    // Atualizar o custo e o predecessor, se o novo custo for menor
+                    if (novoCusto < custos[vizinho])
+                    {
+                        custos[vizinho] = novoCusto;
+                        predecessores[vizinho] = atual;
+
+                        // Adicionar o vizinho à lista de nós para explorar
+                        if (!aExplorar.Contains(vizinho))
+                        {
+                            aExplorar.Add(vizinho);
+                        }
+                    }
+                }
+            }
+        }
+
+        // Caso não haja rota até o destino
+        return (new List<string>(), 0);
+    }
+
+
 }

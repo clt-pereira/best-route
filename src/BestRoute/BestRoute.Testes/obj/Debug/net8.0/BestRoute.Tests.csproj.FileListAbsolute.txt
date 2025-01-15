@@ -157,3 +157,4 @@ D:\Programação\Teste-FullStack\bestroute\src\BestRoute\BestRoute.Testes\obj\De
 D:\Programação\Teste-FullStack\bestroute\src\BestRoute\BestRoute.Testes\obj\Debug\net8.0\BestRoute.Tests.pdb
 D:\Programação\Teste-FullStack\bestroute\src\BestRoute\BestRoute.Testes\obj\Debug\net8.0\BestRoute.Tests.genruntimeconfig.cache
 D:\Programação\Teste-FullStack\bestroute\src\BestRoute\BestRoute.Testes\obj\Debug\net8.0\ref\BestRoute.Tests.dll
+D:\Programação\Teste-FullStack\bestroute\src\BestRoute\BestRoute.Testes\obj\Debug\net8.0\BestRoute.Tests.sourcelink.json

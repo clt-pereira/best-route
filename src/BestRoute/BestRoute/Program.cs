@@ -63,7 +63,7 @@ while (true)
         Console.Write("Digite o destino: ");
         var destino = Console.ReadLine();
 
-        var (rota, custo) = await service.EncontrarRotaMaisBarata(origem!, destino!);
+        var (rota, custo) = await service.EncontrarRotaMenorCusto(origem!, destino!);
 
         if (rota.Any())
         {
