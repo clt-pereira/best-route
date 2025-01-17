@@ -3,16 +3,16 @@
   "WorkspaceRootPath": "D:\\Programa\u00E7\u00E3o\\Teste-FullStack\\bestroute\\src\\BestRoute\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{EF68DE03-DC86-40C2-BB32-3E566005F3C5}|BestRoute.Testes\\BestRoute.Tests.csproj|d:\\programa\u00E7\u00E3o\\teste-fullstack\\bestroute\\src\\bestroute\\bestroute.testes\\bestroutetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EF68DE03-DC86-40C2-BB32-3E566005F3C5}|BestRoute.Testes\\BestRoute.Tests.csproj|solutionrelative:bestroute.testes\\bestroutetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{689EABAF-B1FC-4BEA-A2E0-229DBBC9FAD7}|BestRoute\\BestRoute.csproj|d:\\programa\u00E7\u00E3o\\teste-fullstack\\bestroute\\src\\bestroute\\bestroute\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{689EABAF-B1FC-4BEA-A2E0-229DBBC9FAD7}|BestRoute\\BestRoute.csproj|solutionrelative:bestroute\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{689EABAF-B1FC-4BEA-A2E0-229DBBC9FAD7}|BestRoute\\BestRoute.csproj|d:\\programa\u00E7\u00E3o\\teste-fullstack\\bestroute\\src\\bestroute\\bestroute\\application\\services\\routeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{689EABAF-B1FC-4BEA-A2E0-229DBBC9FAD7}|BestRoute\\BestRoute.csproj|solutionrelative:bestroute\\application\\services\\routeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{689EABAF-B1FC-4BEA-A2E0-229DBBC9FAD7}|BestRoute\\BestRoute.csproj|d:\\programa\u00E7\u00E3o\\teste-fullstack\\bestroute\\src\\bestroute\\bestroute\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{689EABAF-B1FC-4BEA-A2E0-229DBBC9FAD7}|BestRoute\\BestRoute.csproj|solutionrelative:bestroute\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{EF68DE03-DC86-40C2-BB32-3E566005F3C5}|BestRoute.Testes\\BestRoute.Tests.csproj|d:\\programa\u00E7\u00E3o\\teste-fullstack\\bestroute\\src\\bestroute\\bestroute.testes\\bestroutetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EF68DE03-DC86-40C2-BB32-3E566005F3C5}|BestRoute.Testes\\BestRoute.Tests.csproj|solutionrelative:bestroute.testes\\bestroutetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,7 +22,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Bookmark",
@@ -46,15 +46,28 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "BestRouteTests.cs",
               "DocumentMoniker": "D:\\Programa\u00E7\u00E3o\\Teste-FullStack\\bestroute\\src\\BestRoute\\BestRoute.Testes\\BestRouteTests.cs",
               "RelativeDocumentMoniker": "BestRoute.Testes\\BestRouteTests.cs",
               "ToolTip": "D:\\Programa\u00E7\u00E3o\\Teste-FullStack\\bestroute\\src\\BestRoute\\BestRoute.Testes\\BestRouteTests.cs",
               "RelativeToolTip": "BestRoute.Testes\\BestRouteTests.cs",
-              "ViewState": "AgIAABgAAAAAAAAAAIAwwCkAAAA2AAAAAAAAAA==",
+              "ViewState": "AgIAABMAAAAAAAAAAAAqwCwAAAA6AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-15T00:03:35.407Z",
+              "WhenOpened": "2025-01-17T18:37:39.769Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Programa\u00E7\u00E3o\\Teste-FullStack\\bestroute\\src\\BestRoute\\BestRoute\\Program.cs",
+              "RelativeDocumentMoniker": "BestRoute\\Program.cs",
+              "ToolTip": "D:\\Programa\u00E7\u00E3o\\Teste-FullStack\\bestroute\\src\\BestRoute\\BestRoute\\Program.cs*",
+              "RelativeToolTip": "BestRoute\\Program.cs*",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAMwEEAAABBAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-17T18:33:12.517Z",
               "EditorCaption": ""
             },
             {
@@ -65,22 +78,9 @@
               "RelativeDocumentMoniker": "BestRoute\\Application\\Services\\RouteService.cs",
               "ToolTip": "D:\\Programa\u00E7\u00E3o\\Teste-FullStack\\bestroute\\src\\BestRoute\\BestRoute\\Application\\Services\\RouteService.cs",
               "RelativeToolTip": "BestRoute\\Application\\Services\\RouteService.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAYwBUAAAAhAAAAAAAAAA==",
+              "ViewState": "AgIAAMAAAAAAAAAAAADwv8kAAAALAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-14T23:47:21.615Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\Programa\u00E7\u00E3o\\Teste-FullStack\\bestroute\\src\\BestRoute\\BestRoute\\Program.cs",
-              "RelativeDocumentMoniker": "BestRoute\\Program.cs",
-              "ToolTip": "D:\\Programa\u00E7\u00E3o\\Teste-FullStack\\bestroute\\src\\BestRoute\\BestRoute\\Program.cs",
-              "RelativeToolTip": "BestRoute\\Program.cs",
-              "ViewState": "AgIAACoAAAAAAAAAAADwv0EAAABBAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-14T21:13:37.568Z",
+              "WhenOpened": "2025-01-17T18:28:33.468Z",
               "EditorCaption": ""
             }
           ]
